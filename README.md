@@ -1,4 +1,5 @@
 # BUILDING A REAL-ESTATE WEB APPLICATION USING DJANGO V.2.2
+https://github.com/ingafter60/django_bt_realstate
 
 ## 01. Getting Started
 
@@ -69,3 +70,8 @@
         modified:   README.md
         modified:   config/__pycache__/settings.cpython-38.pyc
         modified:   config/settings.py
+
+### 01.3.3 - Creating and pushing the project to Gihub remository        
+
+		>> https://github.com/ingafter60/django_bt_realstate
+        modified:   README.md
