@@ -28,3 +28,44 @@
         new file:   config/wsgi.py
         new file:   db.sqlite3
         new file:   manage.py
+
+### 01.3.3 - Setting up MySQL Database and create superuser
+
+		> Install mysqlclient
+		> Create database 'django_bt_realstate'
+		> Setup the database credentials in settings
+		DATABASES = {
+		    'default': {
+		        'ENGINE': 'django.db.backends.mysql',
+		        'NAME': "django_bt_realstate",
+		        'USER': 'root',
+		        'PASSWORD': '',
+		        'PORT': 3306
+		    }
+		}
+		> Run the server to test it out
+		> Run migrations
+		> Create superuser
+		> The results
+		mysql> CREATE DATABASE django_bt_realstate;
+		Query OK, 1 row affected (0.49 sec)
+		mysql> USE django_bt_realstate;
+		Database changed
+		mysql> show tables;
+		+-------------------------------+
+		| Tables_in_django_bt_realstate |
+		+-------------------------------+
+		| auth_group                    |
+		| auth_group_permissions        |
+		| auth_permission               |
+		| auth_user                     |
+		| auth_user_groups              |
+		| auth_user_user_permissions    |
+		| django_admin_log              |
+		| django_content_type           |
+		| django_migrations             |
+		| django_session                |
+		+-------------------------------+
+        modified:   README.md
+        modified:   config/__pycache__/settings.cpython-38.pyc
+        modified:   config/settings.py
