@@ -75,3 +75,28 @@ https://github.com/ingafter60/django_bt_realstate
 
 		>> https://github.com/ingafter60/django_bt_realstate
         modified:   README.md
+
+
+## 02. Apps, URLs & Templates
+
+### 02.1.4 - Create django app & register it to settings
+
+        modified:   README.md
+        new file:   _lessonImages/2020-12-08_225511.png
+        new file:   _lessonImages/2020-12-08_225744.png
+        new file:   _lessonImages/2020-12-08_230132.png
+        new file:   _lessonImages/2020-12-08_230246.png
+        modified:   config/__pycache__/settings.cpython-38.pyc
+        modified:   config/settings.py
+        new file:   pages/__init__.py
+        new file:   pages/__pycache__/__init__.cpython-38.pyc
+        new file:   pages/__pycache__/admin.cpython-38.pyc
+        new file:   pages/__pycache__/apps.cpython-38.pyc
+        new file:   pages/__pycache__/models.cpython-38.pyc
+        new file:   pages/admin.py
+        new file:   pages/apps.py
+        new file:   pages/migrations/__init__.py
+        new file:   pages/migrations/__pycache__/__init__.cpython-38.pyc
+        new file:   pages/models.py
+        new file:   pages/tests.py
+        new file:   pages/views.py
